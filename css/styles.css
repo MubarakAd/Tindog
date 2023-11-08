@@ -1,0 +1,189 @@
+
+#title{
+    background-color: #ff4c68;
+}
+.navbar {
+    color: white;
+    padding: 10px 10% 10px;
+    background-color: rgba(0,0,0,0.7);
+  }
+
+
+  .navbar .navbar-nav .nav-link {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .navbar .navbar-nav .nav-link:hover{
+    color: #ef8172;
+  }
+  .navbar .navbar-toggler{
+    background-color: white;
+  }
+   .navbar .navbar-brand{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .container{
+    text-align: center;
+    padding: 16% 1% 10%;
+  }
+  .iphone{
+  width: 25%;
+  right: 150px;
+  transform: rotate(25deg); 
+  position: absolute;
+  }
+  @media(max-width:1028px){
+    .iphone{
+      width: 50%;
+      position: static;
+      transform: none;
+
+    }
+    .media{
+      margin: 65px auto 65px auto;
+    }
+  }
+  .col-lg-6{
+    margin-top: 40px;
+  }
+  
+  
+  #features {
+    text-align: center;
+    position: relative;
+    padding: 110px 80px 100px 80px;
+    background-color: white;
+    z-index: 1;
+  }
+  .paragraph-1{
+
+   width: 65%;
+   padding-top: 10px;
+   margin: 0 auto;
+   font-family: 'Montserrat', sans-serif;
+   color: #8f8f8f;
+  }
+  h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+  }
+  .icon-3{
+    color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+.icon-3:hover{
+  color: #ff4c68;
+}
+  
+  
+  .btn{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 2rem 1rem 0 1rem;
+
+  }
+  h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+  }
+  #testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 120px 60px 90px 60px;
+  }
+  .dog-img{
+    width:8%;
+    border-radius: 100%; /* Set the desired width */ 
+  }
+  .lady-img{
+    width: 8%;
+    border-radius: 100%;
+  }
+  .testimonial-text{
+    font-family: 'Montserrat-Black', sans-serif;
+    color: white;
+    font-size: 3rem;
+    width: 75%;
+    line-height: 1.5;
+    margin: 0 auto;
+  }
+  .carousel-item{
+    padding: 0 50px 0 50px;
+  }
+  .carousel-control-prev{
+    margin-right: 100px;
+    margin-bottom: 40px;
+    
+  }
+  .carousel-control-next{
+    margin-left: 100px;
+    margin-bottom: 40px;
+    
+
+  }
+
+  
+  #press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 90px 20px 90px 20px;
+  }
+  .press{
+    width: 15%;
+    margin: 0 auto 0 auto;
+    
+  }
+  #pricing{
+    text-align: center;
+    padding: 100px 60px 90px 60px;
+    
+  }
+  .plan{
+    font-family: serif;
+    font-size: 3.7rem;
+    padding-bottom: 15px;
+  }
+  .card{
+    width: 80%;
+    margin: 65px auto 65px auto;
+  }
+  .sign-up{
+    padding: 0 40px 0 40px;
+    font-family: 'Montserrat-Black', sans-serif;
+    color: #8f8f8f;
+  }
+  .card-title{
+    font-family:serif;
+    font-size: 3.5rem;
+  }
+  #cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 120px 80px 170px 80px;
+  }
+  .cta{
+    font-family: serif;
+    font-weight: none;
+    font-size: 3.5rem;
+    width: 60%;
+    margin: 10px auto 10px auto;
+    color: white;
+  }
+  #footer{
+    text-align: center;
+    padding: 70px 50px 70px 50px;
+  }
+  .footer-icon{
+    margin: 10px 5px 15px 5px;
+    color: #ff4c68;
+    
+  }
+  
