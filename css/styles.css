@@ -1,6 +1,10 @@
 
-#title{
-    background-color: #ff4c68;
+body{
+  overflow-x: hidden;
+    
+}
+.old{
+  background-color:var(--tertiary-color);
 }
 .navbar {
     color: white;
@@ -14,9 +18,33 @@
     font-family: 'Montserrat', sans-serif;
     margin-right: 5px;
     margin-left: 5px;
+    position: relative;
   }
-  .navbar .navbar-nav .nav-link:hover{
-    color: #ef8172;
+  #sun{
+    width: 30px;
+    cursor: pointer;
+  }
+  :root {
+    --secondary-color: #fff;
+    --tertiary-color: #ff4c68;
+  }
+  .dark-theme{
+    --secondary-color: #fff;
+    --tertiary-color: black;
+  }
+  .navbar .navbar-nav .nav-link::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    position:absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: var(--tertiary-color);
+    transition: 0.5s;
+  }
+  .navbar .navbar-nav .nav-link:hover::after{
+    width: 100%;
+    
   }
   .navbar .navbar-toggler{
     background-color: white;
@@ -44,9 +72,13 @@
       transform: none;
 
     }
+    .navbar .navbar-nav .nav-link:hover::after{
+      width: 15%;
+    }
     .media{
       margin: 65px auto 65px auto;
     }
+
   }
   .col-lg-6{
     margin-top: 40px;
@@ -96,7 +128,7 @@
   }
   #testimonials{
     text-align: center;
-    background-color: #ff4c68;
+    
     padding: 120px 60px 90px 60px;
   }
   .dog-img{
@@ -132,7 +164,7 @@
 
   
   #press{
-    background-color: #ff4c68;
+    
     text-align: center;
     padding: 90px 20px 90px 20px;
   }
@@ -166,7 +198,7 @@
   }
   #cta{
     text-align: center;
-    background-color: #ff4c68;
+   
     padding: 120px 80px 170px 80px;
   }
   .cta{
@@ -183,7 +215,7 @@
   }
   .footer-icon{
     margin: 10px 5px 15px 5px;
-    color: #ff4c68;
+    color: var(--tertiary-color);
     
   }
   
